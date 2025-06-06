@@ -1,0 +1,39 @@
+.f1-driver-list-container {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    color: #333;
+}
+
+.list-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.driver-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.driver-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.driver-name,
+.driver-team,
+.driver-age {
+    flex: 1;
+    text-align: center;
+}
+
+.driver-name {
+    font-weight: bold;
+}
